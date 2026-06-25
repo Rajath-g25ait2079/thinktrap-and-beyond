@@ -46,8 +46,6 @@ REPOSITORY CONTENTS
 
   thinktrap/                  the re-implementation (library, configs,
                               scripts, tests, examples)
-  paper/                      our follow-up write-up (LaTeX source and the
-                              compiled PDF) with its figures
   research/                   research plan, paper outline, and a summary of
                               the original work
   ThinkTrap_and_Beyond.pptx   the presentation slides
