@@ -1,0 +1,33 @@
+# Real local-model config (requires: torch, transformers, a GPU recommended).
+# Targets a LOCAL open-source model you control. Do NOT point this at a
+# third-party commercial API. See README (Ethics).
+#
+# Paper-faithful settings: L=20, m=20, cap=4096, budget up to 100k tokens.
+
+prompt_length: 20
+latent_dim: 20
+max_new_tokens: 4096
+success_threshold: 4096
+temperature: 1.0
+
+sigma: 1.0
+epsilon: 1.0e-8
+query_budget_tokens: 100000
+max_iterations: 300
+
+seed: 0
+log_every: 1
+verbose: true
+
+# The victim and the surrogate decoder can be the SAME model (white-box-ish
+# study) or DIFFERENT models (to study the paper's cross-model surrogate
+# assumption). Swap in any local HF causal-LM you are authorized to test.
+victim:
+  kind: hf
+  model_name: Qwen/Qwen2.5-1.5B-Instruct   # example; use a model you control
+  device: auto
+  dtype: auto
+
+surrogate:
+  kind: hf
+  model_name: Qwen/Qwen2.5-1.5B-Instruct   # public surrogate embedding table

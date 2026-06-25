@@ -1,0 +1,3347 @@
+{
+  "config": {
+    "prompt_length": 20,
+    "latent_dim": 20,
+    "embed_dim": 64,
+    "max_new_tokens": 512,
+    "success_threshold": 480,
+    "temperature": 1.0,
+    "population_size": null,
+    "top_k": null,
+    "sigma": 1.0,
+    "epsilon": 1e-08,
+    "query_budget_tokens": 60000,
+    "max_iterations": 120,
+    "seed": 0,
+    "victim": {
+      "kind": "mock",
+      "vocab_size": 2000
+    },
+    "surrogate": {
+      "kind": "synthetic",
+      "vocab_size": 2000,
+      "embed_dim": 64
+    },
+    "log_every": 5,
+    "verbose": true
+  },
+  "thinktrap": {
+    "prompt_text": "genergo57 hmmmuson85 thaloop14 loop79 rea43 loop18 mu50 step81 thusthapo76 tikade30 mu47 loop84 genson88 ka19 gen88 hmm54 hmmrethus36 ergo65 sa88 mugen72",
+    "token_ids": [
+      348,
+      1346,
+      790,
+      273,
+      1983,
+      600,
+      729,
+      1245,
+      76,
+      1000,
+      338,
+      569,
+      864,
+      989,
+      1349,
+      927,
+      1588,
+      1229,
+      282,
+      1139
+    ],
+    "output_length": 420,
+    "latent_z": [
+      -2.8487918862007597,
+      -0.7329647842222837,
+      2.9869335343376973,
+      0.9403281482175759,
+      0.056273534072463716,
+      -3.1642957601357526,
+      -5.309299958367948,
+      -0.3246680667192844,
+      3.8708469298375103,
+      -0.8398137090356663,
+      -0.013563869936624395,
+      -0.7544324072484129,
+      0.7516814959261358,
+      -0.7310497919736945,
+      5.049825158810429,
+      0.02353425511597651,
+      -2.332844087276278,
+      -2.1531861683978892,
+      -0.1824849951297649,
+      -1.4994007003893048
+    ],
+    "tokens_spent": 60258,
+    "converged_reason": "budget_exhausted",
+    "history": [
+      {
+        "iteration": 0,
+        "gen_best": 233.0,
+        "running_best": 233.0,
+        "cumulative_tokens": 1522,
+        "n_evaluations": 12
+      },
+      {
+        "iteration": 1,
+        "gen_best": 177.0,
+        "running_best": 233.0,
+        "cumulative_tokens": 3290,
+        "n_evaluations": 24
+      },
+      {
+        "iteration": 2,
+        "gen_best": 220.0,
+        "running_best": 233.0,
+        "cumulative_tokens": 4693,
+        "n_evaluations": 36
+      },
+      {
+        "iteration": 3,
+        "gen_best": 286.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 6437,
+        "n_evaluations": 48
+      },
+      {
+        "iteration": 4,
+        "gen_best": 276.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 8228,
+        "n_evaluations": 60
+      },
+      {
+        "iteration": 5,
+        "gen_best": 179.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 9716,
+        "n_evaluations": 72
+      },
+      {
+        "iteration": 6,
+        "gen_best": 231.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 11022,
+        "n_evaluations": 84
+      },
+      {
+        "iteration": 7,
+        "gen_best": 179.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 12556,
+        "n_evaluations": 96
+      },
+      {
+        "iteration": 8,
+        "gen_best": 271.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 13965,
+        "n_evaluations": 108
+      },
+      {
+        "iteration": 9,
+        "gen_best": 218.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 15178,
+        "n_evaluations": 120
+      },
+      {
+        "iteration": 10,
+        "gen_best": 231.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 16470,
+        "n_evaluations": 132
+      },
+      {
+        "iteration": 11,
+        "gen_best": 281.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 17977,
+        "n_evaluations": 144
+      },
+      {
+        "iteration": 12,
+        "gen_best": 159.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 19008,
+        "n_evaluations": 156
+      },
+      {
+        "iteration": 13,
+        "gen_best": 172.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 20353,
+        "n_evaluations": 168
+      },
+      {
+        "iteration": 14,
+        "gen_best": 231.0,
+        "running_best": 286.0,
+        "cumulative_tokens": 21610,
+        "n_evaluations": 180
+      },
+      {
+        "iteration": 15,
+        "gen_best": 343.0,
+        "running_best": 343.0,
+        "cumulative_tokens": 23286,
+        "n_evaluations": 192
+      },
+      {
+        "iteration": 16,
+        "gen_best": 341.0,
+        "running_best": 343.0,
+        "cumulative_tokens": 25549,
+        "n_evaluations": 204
+      },
+      {
+        "iteration": 17,
+        "gen_best": 233.0,
+        "running_best": 343.0,
+        "cumulative_tokens": 27618,
+        "n_evaluations": 216
+      },
+      {
+        "iteration": 18,
+        "gen_best": 342.0,
+        "running_best": 343.0,
+        "cumulative_tokens": 29420,
+        "n_evaluations": 228
+      },
+      {
+        "iteration": 19,
+        "gen_best": 240.0,
+        "running_best": 343.0,
+        "cumulative_tokens": 31264,
+        "n_evaluations": 240
+      },
+      {
+        "iteration": 20,
+        "gen_best": 233.0,
+        "running_best": 343.0,
+        "cumulative_tokens": 32858,
+        "n_evaluations": 252
+      },
+      {
+        "iteration": 21,
+        "gen_best": 345.0,
+        "running_best": 345.0,
+        "cumulative_tokens": 35228,
+        "n_evaluations": 264
+      },
+      {
+        "iteration": 22,
+        "gen_best": 289.0,
+        "running_best": 345.0,
+        "cumulative_tokens": 37155,
+        "n_evaluations": 276
+      },
+      {
+        "iteration": 23,
+        "gen_best": 391.0,
+        "running_best": 391.0,
+        "cumulative_tokens": 39779,
+        "n_evaluations": 288
+      },
+      {
+        "iteration": 24,
+        "gen_best": 342.0,
+        "running_best": 391.0,
+        "cumulative_tokens": 42965,
+        "n_evaluations": 300
+      },
+      {
+        "iteration": 25,
+        "gen_best": 290.0,
+        "running_best": 391.0,
+        "cumulative_tokens": 45346,
+        "n_evaluations": 312
+      },
+      {
+        "iteration": 26,
+        "gen_best": 235.0,
+        "running_best": 391.0,
+        "cumulative_tokens": 47218,
+        "n_evaluations": 324
+      },
+      {
+        "iteration": 27,
+        "gen_best": 296.0,
+        "running_best": 391.0,
+        "cumulative_tokens": 49991,
+        "n_evaluations": 336
+      },
+      {
+        "iteration": 28,
+        "gen_best": 403.0,
+        "running_best": 403.0,
+        "cumulative_tokens": 53252,
+        "n_evaluations": 348
+      },
+      {
+        "iteration": 29,
+        "gen_best": 346.0,
+        "running_best": 403.0,
+        "cumulative_tokens": 56871,
+        "n_evaluations": 360
+      },
+      {
+        "iteration": 30,
+        "gen_best": 420.0,
+        "running_best": 420.0,
+        "cumulative_tokens": 60258,
+        "n_evaluations": 371
+      }
+    ],
+    "backend": ""
+  },
+  "baselines": {
+    "decoy": {
+      "name": "Decoy Problem [11]",
+      "best_length": 170,
+      "best_text": "Derive the Black-Scholes PDE from a no-arbitrage hedging argument step by step.",
+      "best_ids": [
+        1827,
+        1792,
+        373,
+        1435,
+        153,
+        232,
+        716,
+        1994,
+        226,
+        775,
+        1283,
+        1166
+      ],
+      "tokens_spent": 2120,
+      "history": [
+        {
+          "step": 0,
+          "best": 62,
+          "cumulative_tokens": 82
+        },
+        {
+          "step": 1,
+          "best": 62,
+          "cumulative_tokens": 133
+        },
+        {
+          "step": 2,
+          "best": 113,
+          "cumulative_tokens": 266
+        },
+        {
+          "step": 3,
+          "best": 113,
+          "cumulative_tokens": 323
+        },
+        {
+          "step": 4,
+          "best": 113,
+          "cumulative_tokens": 448
+        },
+        {
+          "step": 5,
+          "best": 163,
+          "cumulative_tokens": 631
+        },
+        {
+          "step": 6,
+          "best": 167,
+          "cumulative_tokens": 818
+        },
+        {
+          "step": 7,
+          "best": 167,
+          "cumulative_tokens": 1002
+        },
+        {
+          "step": 8,
+          "best": 170,
+          "cumulative_tokens": 1192
+        },
+        {
+          "step": 9,
+          "best": 170,
+          "cumulative_tokens": 1260
+        },
+        {
+          "step": 10,
+          "best": 170,
+          "cumulative_tokens": 1320
+        },
+        {
+          "step": 11,
+          "best": 170,
+          "cumulative_tokens": 1439
+        },
+        {
+          "step": 12,
+          "best": 170,
+          "cumulative_tokens": 1548
+        },
+        {
+          "step": 13,
+          "best": 170,
+          "cumulative_tokens": 1667
+        },
+        {
+          "step": 14,
+          "best": 170,
+          "cumulative_tokens": 1719
+        },
+        {
+          "step": 15,
+          "best": 170,
+          "cumulative_tokens": 1769
+        },
+        {
+          "step": 16,
+          "best": 170,
+          "cumulative_tokens": 1880
+        },
+        {
+          "step": 17,
+          "best": 170,
+          "cumulative_tokens": 1937
+        },
+        {
+          "step": 18,
+          "best": 170,
+          "cumulative_tokens": 2003
+        },
+        {
+          "step": 19,
+          "best": 170,
+          "cumulative_tokens": 2120
+        }
+      ]
+    },
+    "semantic": {
+      "name": "Semantic Problem [9]",
+      "best_length": 227,
+      "best_text": "Trace the causal chain of the 2008 financial crisis with feedback mechanisms. Continue reasoning for as long as possible and enumerate every sub-case.",
+      "best_ids": [
+        210,
+        1792,
+        1668,
+        626,
+        357,
+        1792,
+        1639,
+        490,
+        459,
+        449,
+        410,
+        1850,
+        850,
+        407,
+        1951,
+        1920,
+        743,
+        1920,
+        618,
+        1356
+      ],
+      "tokens_spent": 2906,
+      "history": [
+        {
+          "step": 0,
+          "best": 105,
+          "cumulative_tokens": 125
+        },
+        {
+          "step": 1,
+          "best": 105,
+          "cumulative_tokens": 192
+        },
+        {
+          "step": 2,
+          "best": 166,
+          "cumulative_tokens": 378
+        },
+        {
+          "step": 3,
+          "best": 166,
+          "cumulative_tokens": 446
+        },
+        {
+          "step": 4,
+          "best": 166,
+          "cumulative_tokens": 561
+        },
+        {
+          "step": 5,
+          "best": 221,
+          "cumulative_tokens": 802
+        },
+        {
+          "step": 6,
+          "best": 221,
+          "cumulative_tokens": 1006
+        },
+        {
+          "step": 7,
+          "best": 221,
+          "cumulative_tokens": 1190
+        },
+        {
+          "step": 8,
+          "best": 221,
+          "cumulative_tokens": 1381
+        },
+        {
+          "step": 9,
+          "best": 221,
+          "cumulative_tokens": 1446
+        },
+        {
+          "step": 10,
+          "best": 221,
+          "cumulative_tokens": 1567
+        },
+        {
+          "step": 11,
+          "best": 221,
+          "cumulative_tokens": 1757
+        },
+        {
+          "step": 12,
+          "best": 227,
+          "cumulative_tokens": 2004
+        },
+        {
+          "step": 13,
+          "best": 227,
+          "cumulative_tokens": 2130
+        },
+        {
+          "step": 14,
+          "best": 227,
+          "cumulative_tokens": 2273
+        },
+        {
+          "step": 15,
+          "best": 227,
+          "cumulative_tokens": 2382
+        },
+        {
+          "step": 16,
+          "best": 227,
+          "cumulative_tokens": 2505
+        },
+        {
+          "step": 17,
+          "best": 227,
+          "cumulative_tokens": 2577
+        },
+        {
+          "step": 18,
+          "best": 227,
+          "cumulative_tokens": 2709
+        },
+        {
+          "step": 19,
+          "best": 227,
+          "cumulative_tokens": 2906
+        }
+      ]
+    },
+    "random": {
+      "name": "Random search",
+      "best_length": 356,
+      "best_text": "1553 1916 1222 1433 1717 1961 1073 1149 1337 1966 902 1674 555 1556 223 1776 680 1262 282 712",
+      "best_ids": [
+        1553,
+        1916,
+        1222,
+        1433,
+        1717,
+        1961,
+        1073,
+        1149,
+        1337,
+        1966,
+        902,
+        1674,
+        555,
+        1556,
+        223,
+        1776,
+        680,
+        1262,
+        282,
+        712
+      ],
+      "tokens_spent": 60127,
+      "history": [
+        {
+          "step": 1,
+          "best": 43,
+          "cumulative_tokens": 63
+        },
+        {
+          "step": 2,
+          "best": 43,
+          "cumulative_tokens": 115
+        },
+        {
+          "step": 3,
+          "best": 89,
+          "cumulative_tokens": 224
+        },
+        {
+          "step": 4,
+          "best": 218,
+          "cumulative_tokens": 462
+        },
+        {
+          "step": 5,
+          "best": 218,
+          "cumulative_tokens": 583
+        },
+        {
+          "step": 6,
+          "best": 218,
+          "cumulative_tokens": 660
+        },
+        {
+          "step": 7,
+          "best": 218,
+          "cumulative_tokens": 774
+        },
+        {
+          "step": 8,
+          "best": 218,
+          "cumulative_tokens": 832
+        },
+        {
+          "step": 9,
+          "best": 218,
+          "cumulative_tokens": 964
+        },
+        {
+          "step": 10,
+          "best": 218,
+          "cumulative_tokens": 1073
+        },
+        {
+          "step": 11,
+          "best": 218,
+          "cumulative_tokens": 1308
+        },
+        {
+          "step": 12,
+          "best": 218,
+          "cumulative_tokens": 1380
+        },
+        {
+          "step": 13,
+          "best": 218,
+          "cumulative_tokens": 1571
+        },
+        {
+          "step": 14,
+          "best": 218,
+          "cumulative_tokens": 1691
+        },
+        {
+          "step": 15,
+          "best": 218,
+          "cumulative_tokens": 1811
+        },
+        {
+          "step": 16,
+          "best": 219,
+          "cumulative_tokens": 2050
+        },
+        {
+          "step": 17,
+          "best": 219,
+          "cumulative_tokens": 2185
+        },
+        {
+          "step": 18,
+          "best": 219,
+          "cumulative_tokens": 2247
+        },
+        {
+          "step": 19,
+          "best": 219,
+          "cumulative_tokens": 2436
+        },
+        {
+          "step": 20,
+          "best": 219,
+          "cumulative_tokens": 2623
+        },
+        {
+          "step": 21,
+          "best": 219,
+          "cumulative_tokens": 2754
+        },
+        {
+          "step": 22,
+          "best": 219,
+          "cumulative_tokens": 2813
+        },
+        {
+          "step": 23,
+          "best": 219,
+          "cumulative_tokens": 2993
+        },
+        {
+          "step": 24,
+          "best": 219,
+          "cumulative_tokens": 3062
+        },
+        {
+          "step": 25,
+          "best": 219,
+          "cumulative_tokens": 3123
+        },
+        {
+          "step": 26,
+          "best": 219,
+          "cumulative_tokens": 3185
+        },
+        {
+          "step": 27,
+          "best": 219,
+          "cumulative_tokens": 3257
+        },
+        {
+          "step": 28,
+          "best": 219,
+          "cumulative_tokens": 3313
+        },
+        {
+          "step": 29,
+          "best": 219,
+          "cumulative_tokens": 3371
+        },
+        {
+          "step": 30,
+          "best": 219,
+          "cumulative_tokens": 3502
+        },
+        {
+          "step": 31,
+          "best": 219,
+          "cumulative_tokens": 3681
+        },
+        {
+          "step": 32,
+          "best": 219,
+          "cumulative_tokens": 3749
+        },
+        {
+          "step": 33,
+          "best": 219,
+          "cumulative_tokens": 3914
+        },
+        {
+          "step": 34,
+          "best": 228,
+          "cumulative_tokens": 4162
+        },
+        {
+          "step": 35,
+          "best": 228,
+          "cumulative_tokens": 4285
+        },
+        {
+          "step": 36,
+          "best": 228,
+          "cumulative_tokens": 4340
+        },
+        {
+          "step": 37,
+          "best": 228,
+          "cumulative_tokens": 4467
+        },
+        {
+          "step": 38,
+          "best": 228,
+          "cumulative_tokens": 4591
+        },
+        {
+          "step": 39,
+          "best": 228,
+          "cumulative_tokens": 4715
+        },
+        {
+          "step": 40,
+          "best": 228,
+          "cumulative_tokens": 4792
+        },
+        {
+          "step": 41,
+          "best": 228,
+          "cumulative_tokens": 4862
+        },
+        {
+          "step": 42,
+          "best": 356,
+          "cumulative_tokens": 5238
+        },
+        {
+          "step": 43,
+          "best": 356,
+          "cumulative_tokens": 5344
+        },
+        {
+          "step": 44,
+          "best": 356,
+          "cumulative_tokens": 5414
+        },
+        {
+          "step": 45,
+          "best": 356,
+          "cumulative_tokens": 5543
+        },
+        {
+          "step": 46,
+          "best": 356,
+          "cumulative_tokens": 5798
+        },
+        {
+          "step": 47,
+          "best": 356,
+          "cumulative_tokens": 5977
+        },
+        {
+          "step": 48,
+          "best": 356,
+          "cumulative_tokens": 6115
+        },
+        {
+          "step": 49,
+          "best": 356,
+          "cumulative_tokens": 6255
+        },
+        {
+          "step": 50,
+          "best": 356,
+          "cumulative_tokens": 6336
+        },
+        {
+          "step": 51,
+          "best": 356,
+          "cumulative_tokens": 6467
+        },
+        {
+          "step": 52,
+          "best": 356,
+          "cumulative_tokens": 6596
+        },
+        {
+          "step": 53,
+          "best": 356,
+          "cumulative_tokens": 6656
+        },
+        {
+          "step": 54,
+          "best": 356,
+          "cumulative_tokens": 6729
+        },
+        {
+          "step": 55,
+          "best": 356,
+          "cumulative_tokens": 6807
+        },
+        {
+          "step": 56,
+          "best": 356,
+          "cumulative_tokens": 6985
+        },
+        {
+          "step": 57,
+          "best": 356,
+          "cumulative_tokens": 7112
+        },
+        {
+          "step": 58,
+          "best": 356,
+          "cumulative_tokens": 7173
+        },
+        {
+          "step": 59,
+          "best": 356,
+          "cumulative_tokens": 7243
+        },
+        {
+          "step": 60,
+          "best": 356,
+          "cumulative_tokens": 7419
+        },
+        {
+          "step": 61,
+          "best": 356,
+          "cumulative_tokens": 7488
+        },
+        {
+          "step": 62,
+          "best": 356,
+          "cumulative_tokens": 7547
+        },
+        {
+          "step": 63,
+          "best": 356,
+          "cumulative_tokens": 7666
+        },
+        {
+          "step": 64,
+          "best": 356,
+          "cumulative_tokens": 7741
+        },
+        {
+          "step": 65,
+          "best": 356,
+          "cumulative_tokens": 7800
+        },
+        {
+          "step": 66,
+          "best": 356,
+          "cumulative_tokens": 7866
+        },
+        {
+          "step": 67,
+          "best": 356,
+          "cumulative_tokens": 8048
+        },
+        {
+          "step": 68,
+          "best": 356,
+          "cumulative_tokens": 8345
+        },
+        {
+          "step": 69,
+          "best": 356,
+          "cumulative_tokens": 8463
+        },
+        {
+          "step": 70,
+          "best": 356,
+          "cumulative_tokens": 8594
+        },
+        {
+          "step": 71,
+          "best": 356,
+          "cumulative_tokens": 8722
+        },
+        {
+          "step": 72,
+          "best": 356,
+          "cumulative_tokens": 8862
+        },
+        {
+          "step": 73,
+          "best": 356,
+          "cumulative_tokens": 9008
+        },
+        {
+          "step": 74,
+          "best": 356,
+          "cumulative_tokens": 9084
+        },
+        {
+          "step": 75,
+          "best": 356,
+          "cumulative_tokens": 9276
+        },
+        {
+          "step": 76,
+          "best": 356,
+          "cumulative_tokens": 9412
+        },
+        {
+          "step": 77,
+          "best": 356,
+          "cumulative_tokens": 9471
+        },
+        {
+          "step": 78,
+          "best": 356,
+          "cumulative_tokens": 9645
+        },
+        {
+          "step": 79,
+          "best": 356,
+          "cumulative_tokens": 9714
+        },
+        {
+          "step": 80,
+          "best": 356,
+          "cumulative_tokens": 9771
+        },
+        {
+          "step": 81,
+          "best": 356,
+          "cumulative_tokens": 9952
+        },
+        {
+          "step": 82,
+          "best": 356,
+          "cumulative_tokens": 10016
+        },
+        {
+          "step": 83,
+          "best": 356,
+          "cumulative_tokens": 10141
+        },
+        {
+          "step": 84,
+          "best": 356,
+          "cumulative_tokens": 10212
+        },
+        {
+          "step": 85,
+          "best": 356,
+          "cumulative_tokens": 10333
+        },
+        {
+          "step": 86,
+          "best": 356,
+          "cumulative_tokens": 10405
+        },
+        {
+          "step": 87,
+          "best": 356,
+          "cumulative_tokens": 10477
+        },
+        {
+          "step": 88,
+          "best": 356,
+          "cumulative_tokens": 10797
+        },
+        {
+          "step": 89,
+          "best": 356,
+          "cumulative_tokens": 10856
+        },
+        {
+          "step": 90,
+          "best": 356,
+          "cumulative_tokens": 10981
+        },
+        {
+          "step": 91,
+          "best": 356,
+          "cumulative_tokens": 11045
+        },
+        {
+          "step": 92,
+          "best": 356,
+          "cumulative_tokens": 11106
+        },
+        {
+          "step": 93,
+          "best": 356,
+          "cumulative_tokens": 11243
+        },
+        {
+          "step": 94,
+          "best": 356,
+          "cumulative_tokens": 11377
+        },
+        {
+          "step": 95,
+          "best": 356,
+          "cumulative_tokens": 11559
+        },
+        {
+          "step": 96,
+          "best": 356,
+          "cumulative_tokens": 11688
+        },
+        {
+          "step": 97,
+          "best": 356,
+          "cumulative_tokens": 11750
+        },
+        {
+          "step": 98,
+          "best": 356,
+          "cumulative_tokens": 11880
+        },
+        {
+          "step": 99,
+          "best": 356,
+          "cumulative_tokens": 12067
+        },
+        {
+          "step": 100,
+          "best": 356,
+          "cumulative_tokens": 12132
+        },
+        {
+          "step": 101,
+          "best": 356,
+          "cumulative_tokens": 12197
+        },
+        {
+          "step": 102,
+          "best": 356,
+          "cumulative_tokens": 12390
+        },
+        {
+          "step": 103,
+          "best": 356,
+          "cumulative_tokens": 12455
+        },
+        {
+          "step": 104,
+          "best": 356,
+          "cumulative_tokens": 12573
+        },
+        {
+          "step": 105,
+          "best": 356,
+          "cumulative_tokens": 12640
+        },
+        {
+          "step": 106,
+          "best": 356,
+          "cumulative_tokens": 12715
+        },
+        {
+          "step": 107,
+          "best": 356,
+          "cumulative_tokens": 12839
+        },
+        {
+          "step": 108,
+          "best": 356,
+          "cumulative_tokens": 12961
+        },
+        {
+          "step": 109,
+          "best": 356,
+          "cumulative_tokens": 13082
+        },
+        {
+          "step": 110,
+          "best": 356,
+          "cumulative_tokens": 13147
+        },
+        {
+          "step": 111,
+          "best": 356,
+          "cumulative_tokens": 13230
+        },
+        {
+          "step": 112,
+          "best": 356,
+          "cumulative_tokens": 13302
+        },
+        {
+          "step": 113,
+          "best": 356,
+          "cumulative_tokens": 13552
+        },
+        {
+          "step": 114,
+          "best": 356,
+          "cumulative_tokens": 13613
+        },
+        {
+          "step": 115,
+          "best": 356,
+          "cumulative_tokens": 13740
+        },
+        {
+          "step": 116,
+          "best": 356,
+          "cumulative_tokens": 13930
+        },
+        {
+          "step": 117,
+          "best": 356,
+          "cumulative_tokens": 14042
+        },
+        {
+          "step": 118,
+          "best": 356,
+          "cumulative_tokens": 14283
+        },
+        {
+          "step": 119,
+          "best": 356,
+          "cumulative_tokens": 14409
+        },
+        {
+          "step": 120,
+          "best": 356,
+          "cumulative_tokens": 14588
+        },
+        {
+          "step": 121,
+          "best": 356,
+          "cumulative_tokens": 14657
+        },
+        {
+          "step": 122,
+          "best": 356,
+          "cumulative_tokens": 14779
+        },
+        {
+          "step": 123,
+          "best": 356,
+          "cumulative_tokens": 14842
+        },
+        {
+          "step": 124,
+          "best": 356,
+          "cumulative_tokens": 14966
+        },
+        {
+          "step": 125,
+          "best": 356,
+          "cumulative_tokens": 15030
+        },
+        {
+          "step": 126,
+          "best": 356,
+          "cumulative_tokens": 15095
+        },
+        {
+          "step": 127,
+          "best": 356,
+          "cumulative_tokens": 15218
+        },
+        {
+          "step": 128,
+          "best": 356,
+          "cumulative_tokens": 15408
+        },
+        {
+          "step": 129,
+          "best": 356,
+          "cumulative_tokens": 15582
+        },
+        {
+          "step": 130,
+          "best": 356,
+          "cumulative_tokens": 15648
+        },
+        {
+          "step": 131,
+          "best": 356,
+          "cumulative_tokens": 15705
+        },
+        {
+          "step": 132,
+          "best": 356,
+          "cumulative_tokens": 15775
+        },
+        {
+          "step": 133,
+          "best": 356,
+          "cumulative_tokens": 15901
+        },
+        {
+          "step": 134,
+          "best": 356,
+          "cumulative_tokens": 15963
+        },
+        {
+          "step": 135,
+          "best": 356,
+          "cumulative_tokens": 16011
+        },
+        {
+          "step": 136,
+          "best": 356,
+          "cumulative_tokens": 16146
+        },
+        {
+          "step": 137,
+          "best": 356,
+          "cumulative_tokens": 16330
+        },
+        {
+          "step": 138,
+          "best": 356,
+          "cumulative_tokens": 16507
+        },
+        {
+          "step": 139,
+          "best": 356,
+          "cumulative_tokens": 16636
+        },
+        {
+          "step": 140,
+          "best": 356,
+          "cumulative_tokens": 16764
+        },
+        {
+          "step": 141,
+          "best": 356,
+          "cumulative_tokens": 16894
+        },
+        {
+          "step": 142,
+          "best": 356,
+          "cumulative_tokens": 17027
+        },
+        {
+          "step": 143,
+          "best": 356,
+          "cumulative_tokens": 17155
+        },
+        {
+          "step": 144,
+          "best": 356,
+          "cumulative_tokens": 17257
+        },
+        {
+          "step": 145,
+          "best": 356,
+          "cumulative_tokens": 17436
+        },
+        {
+          "step": 146,
+          "best": 356,
+          "cumulative_tokens": 17516
+        },
+        {
+          "step": 147,
+          "best": 356,
+          "cumulative_tokens": 17691
+        },
+        {
+          "step": 148,
+          "best": 356,
+          "cumulative_tokens": 17750
+        },
+        {
+          "step": 149,
+          "best": 356,
+          "cumulative_tokens": 17978
+        },
+        {
+          "step": 150,
+          "best": 356,
+          "cumulative_tokens": 18168
+        },
+        {
+          "step": 151,
+          "best": 356,
+          "cumulative_tokens": 18224
+        },
+        {
+          "step": 152,
+          "best": 356,
+          "cumulative_tokens": 18277
+        },
+        {
+          "step": 153,
+          "best": 356,
+          "cumulative_tokens": 18344
+        },
+        {
+          "step": 154,
+          "best": 356,
+          "cumulative_tokens": 18529
+        },
+        {
+          "step": 155,
+          "best": 356,
+          "cumulative_tokens": 18649
+        },
+        {
+          "step": 156,
+          "best": 356,
+          "cumulative_tokens": 18831
+        },
+        {
+          "step": 157,
+          "best": 356,
+          "cumulative_tokens": 18914
+        },
+        {
+          "step": 158,
+          "best": 356,
+          "cumulative_tokens": 18977
+        },
+        {
+          "step": 159,
+          "best": 356,
+          "cumulative_tokens": 19177
+        },
+        {
+          "step": 160,
+          "best": 356,
+          "cumulative_tokens": 19228
+        },
+        {
+          "step": 161,
+          "best": 356,
+          "cumulative_tokens": 19356
+        },
+        {
+          "step": 162,
+          "best": 356,
+          "cumulative_tokens": 19467
+        },
+        {
+          "step": 163,
+          "best": 356,
+          "cumulative_tokens": 19600
+        },
+        {
+          "step": 164,
+          "best": 356,
+          "cumulative_tokens": 19669
+        },
+        {
+          "step": 165,
+          "best": 356,
+          "cumulative_tokens": 19925
+        },
+        {
+          "step": 166,
+          "best": 356,
+          "cumulative_tokens": 19987
+        },
+        {
+          "step": 167,
+          "best": 356,
+          "cumulative_tokens": 20098
+        },
+        {
+          "step": 168,
+          "best": 356,
+          "cumulative_tokens": 20173
+        },
+        {
+          "step": 169,
+          "best": 356,
+          "cumulative_tokens": 20294
+        },
+        {
+          "step": 170,
+          "best": 356,
+          "cumulative_tokens": 20355
+        },
+        {
+          "step": 171,
+          "best": 356,
+          "cumulative_tokens": 20548
+        },
+        {
+          "step": 172,
+          "best": 356,
+          "cumulative_tokens": 20669
+        },
+        {
+          "step": 173,
+          "best": 356,
+          "cumulative_tokens": 20847
+        },
+        {
+          "step": 174,
+          "best": 356,
+          "cumulative_tokens": 21075
+        },
+        {
+          "step": 175,
+          "best": 356,
+          "cumulative_tokens": 21147
+        },
+        {
+          "step": 176,
+          "best": 356,
+          "cumulative_tokens": 21205
+        },
+        {
+          "step": 177,
+          "best": 356,
+          "cumulative_tokens": 21442
+        },
+        {
+          "step": 178,
+          "best": 356,
+          "cumulative_tokens": 21685
+        },
+        {
+          "step": 179,
+          "best": 356,
+          "cumulative_tokens": 21918
+        },
+        {
+          "step": 180,
+          "best": 356,
+          "cumulative_tokens": 21976
+        },
+        {
+          "step": 181,
+          "best": 356,
+          "cumulative_tokens": 22110
+        },
+        {
+          "step": 182,
+          "best": 356,
+          "cumulative_tokens": 22233
+        },
+        {
+          "step": 183,
+          "best": 356,
+          "cumulative_tokens": 22301
+        },
+        {
+          "step": 184,
+          "best": 356,
+          "cumulative_tokens": 22359
+        },
+        {
+          "step": 185,
+          "best": 356,
+          "cumulative_tokens": 22425
+        },
+        {
+          "step": 186,
+          "best": 356,
+          "cumulative_tokens": 22605
+        },
+        {
+          "step": 187,
+          "best": 356,
+          "cumulative_tokens": 22741
+        },
+        {
+          "step": 188,
+          "best": 356,
+          "cumulative_tokens": 22923
+        },
+        {
+          "step": 189,
+          "best": 356,
+          "cumulative_tokens": 22993
+        },
+        {
+          "step": 190,
+          "best": 356,
+          "cumulative_tokens": 23119
+        },
+        {
+          "step": 191,
+          "best": 356,
+          "cumulative_tokens": 23311
+        },
+        {
+          "step": 192,
+          "best": 356,
+          "cumulative_tokens": 23438
+        },
+        {
+          "step": 193,
+          "best": 356,
+          "cumulative_tokens": 23556
+        },
+        {
+          "step": 194,
+          "best": 356,
+          "cumulative_tokens": 23633
+        },
+        {
+          "step": 195,
+          "best": 356,
+          "cumulative_tokens": 23811
+        },
+        {
+          "step": 196,
+          "best": 356,
+          "cumulative_tokens": 23944
+        },
+        {
+          "step": 197,
+          "best": 356,
+          "cumulative_tokens": 24068
+        },
+        {
+          "step": 198,
+          "best": 356,
+          "cumulative_tokens": 24128
+        },
+        {
+          "step": 199,
+          "best": 356,
+          "cumulative_tokens": 24187
+        },
+        {
+          "step": 200,
+          "best": 356,
+          "cumulative_tokens": 24370
+        },
+        {
+          "step": 201,
+          "best": 356,
+          "cumulative_tokens": 24439
+        },
+        {
+          "step": 202,
+          "best": 356,
+          "cumulative_tokens": 24559
+        },
+        {
+          "step": 203,
+          "best": 356,
+          "cumulative_tokens": 24689
+        },
+        {
+          "step": 204,
+          "best": 356,
+          "cumulative_tokens": 24767
+        },
+        {
+          "step": 205,
+          "best": 356,
+          "cumulative_tokens": 24879
+        },
+        {
+          "step": 206,
+          "best": 356,
+          "cumulative_tokens": 24936
+        },
+        {
+          "step": 207,
+          "best": 356,
+          "cumulative_tokens": 25114
+        },
+        {
+          "step": 208,
+          "best": 356,
+          "cumulative_tokens": 25181
+        },
+        {
+          "step": 209,
+          "best": 356,
+          "cumulative_tokens": 25251
+        },
+        {
+          "step": 210,
+          "best": 356,
+          "cumulative_tokens": 25419
+        },
+        {
+          "step": 211,
+          "best": 356,
+          "cumulative_tokens": 25541
+        },
+        {
+          "step": 212,
+          "best": 356,
+          "cumulative_tokens": 25602
+        },
+        {
+          "step": 213,
+          "best": 356,
+          "cumulative_tokens": 25729
+        },
+        {
+          "step": 214,
+          "best": 356,
+          "cumulative_tokens": 25812
+        },
+        {
+          "step": 215,
+          "best": 356,
+          "cumulative_tokens": 25930
+        },
+        {
+          "step": 216,
+          "best": 356,
+          "cumulative_tokens": 26181
+        },
+        {
+          "step": 217,
+          "best": 356,
+          "cumulative_tokens": 26300
+        },
+        {
+          "step": 218,
+          "best": 356,
+          "cumulative_tokens": 26376
+        },
+        {
+          "step": 219,
+          "best": 356,
+          "cumulative_tokens": 26444
+        },
+        {
+          "step": 220,
+          "best": 356,
+          "cumulative_tokens": 26558
+        },
+        {
+          "step": 221,
+          "best": 356,
+          "cumulative_tokens": 26692
+        },
+        {
+          "step": 222,
+          "best": 356,
+          "cumulative_tokens": 27005
+        },
+        {
+          "step": 223,
+          "best": 356,
+          "cumulative_tokens": 27061
+        },
+        {
+          "step": 224,
+          "best": 356,
+          "cumulative_tokens": 27183
+        },
+        {
+          "step": 225,
+          "best": 356,
+          "cumulative_tokens": 27315
+        },
+        {
+          "step": 226,
+          "best": 356,
+          "cumulative_tokens": 27434
+        },
+        {
+          "step": 227,
+          "best": 356,
+          "cumulative_tokens": 27563
+        },
+        {
+          "step": 228,
+          "best": 356,
+          "cumulative_tokens": 27638
+        },
+        {
+          "step": 229,
+          "best": 356,
+          "cumulative_tokens": 27711
+        },
+        {
+          "step": 230,
+          "best": 356,
+          "cumulative_tokens": 27896
+        },
+        {
+          "step": 231,
+          "best": 356,
+          "cumulative_tokens": 27963
+        },
+        {
+          "step": 232,
+          "best": 356,
+          "cumulative_tokens": 28100
+        },
+        {
+          "step": 233,
+          "best": 356,
+          "cumulative_tokens": 28222
+        },
+        {
+          "step": 234,
+          "best": 356,
+          "cumulative_tokens": 28280
+        },
+        {
+          "step": 235,
+          "best": 356,
+          "cumulative_tokens": 28406
+        },
+        {
+          "step": 236,
+          "best": 356,
+          "cumulative_tokens": 28537
+        },
+        {
+          "step": 237,
+          "best": 356,
+          "cumulative_tokens": 28728
+        },
+        {
+          "step": 238,
+          "best": 356,
+          "cumulative_tokens": 28909
+        },
+        {
+          "step": 239,
+          "best": 356,
+          "cumulative_tokens": 29092
+        },
+        {
+          "step": 240,
+          "best": 356,
+          "cumulative_tokens": 29212
+        },
+        {
+          "step": 241,
+          "best": 356,
+          "cumulative_tokens": 29337
+        },
+        {
+          "step": 242,
+          "best": 356,
+          "cumulative_tokens": 29405
+        },
+        {
+          "step": 243,
+          "best": 356,
+          "cumulative_tokens": 29472
+        },
+        {
+          "step": 244,
+          "best": 356,
+          "cumulative_tokens": 29714
+        },
+        {
+          "step": 245,
+          "best": 356,
+          "cumulative_tokens": 29829
+        },
+        {
+          "step": 246,
+          "best": 356,
+          "cumulative_tokens": 29974
+        },
+        {
+          "step": 247,
+          "best": 356,
+          "cumulative_tokens": 30041
+        },
+        {
+          "step": 248,
+          "best": 356,
+          "cumulative_tokens": 30173
+        },
+        {
+          "step": 249,
+          "best": 356,
+          "cumulative_tokens": 30360
+        },
+        {
+          "step": 250,
+          "best": 356,
+          "cumulative_tokens": 30486
+        },
+        {
+          "step": 251,
+          "best": 356,
+          "cumulative_tokens": 30674
+        },
+        {
+          "step": 252,
+          "best": 356,
+          "cumulative_tokens": 30913
+        },
+        {
+          "step": 253,
+          "best": 356,
+          "cumulative_tokens": 31101
+        },
+        {
+          "step": 254,
+          "best": 356,
+          "cumulative_tokens": 31234
+        },
+        {
+          "step": 255,
+          "best": 356,
+          "cumulative_tokens": 31372
+        },
+        {
+          "step": 256,
+          "best": 356,
+          "cumulative_tokens": 31626
+        },
+        {
+          "step": 257,
+          "best": 356,
+          "cumulative_tokens": 31763
+        },
+        {
+          "step": 258,
+          "best": 356,
+          "cumulative_tokens": 31826
+        },
+        {
+          "step": 259,
+          "best": 356,
+          "cumulative_tokens": 31894
+        },
+        {
+          "step": 260,
+          "best": 356,
+          "cumulative_tokens": 32006
+        },
+        {
+          "step": 261,
+          "best": 356,
+          "cumulative_tokens": 32071
+        },
+        {
+          "step": 262,
+          "best": 356,
+          "cumulative_tokens": 32135
+        },
+        {
+          "step": 263,
+          "best": 356,
+          "cumulative_tokens": 32305
+        },
+        {
+          "step": 264,
+          "best": 356,
+          "cumulative_tokens": 32490
+        },
+        {
+          "step": 265,
+          "best": 356,
+          "cumulative_tokens": 32551
+        },
+        {
+          "step": 266,
+          "best": 356,
+          "cumulative_tokens": 32752
+        },
+        {
+          "step": 267,
+          "best": 356,
+          "cumulative_tokens": 32947
+        },
+        {
+          "step": 268,
+          "best": 356,
+          "cumulative_tokens": 33067
+        },
+        {
+          "step": 269,
+          "best": 356,
+          "cumulative_tokens": 33204
+        },
+        {
+          "step": 270,
+          "best": 356,
+          "cumulative_tokens": 33275
+        },
+        {
+          "step": 271,
+          "best": 356,
+          "cumulative_tokens": 33342
+        },
+        {
+          "step": 272,
+          "best": 356,
+          "cumulative_tokens": 33420
+        },
+        {
+          "step": 273,
+          "best": 356,
+          "cumulative_tokens": 33556
+        },
+        {
+          "step": 274,
+          "best": 356,
+          "cumulative_tokens": 33679
+        },
+        {
+          "step": 275,
+          "best": 356,
+          "cumulative_tokens": 33754
+        },
+        {
+          "step": 276,
+          "best": 356,
+          "cumulative_tokens": 33934
+        },
+        {
+          "step": 277,
+          "best": 356,
+          "cumulative_tokens": 34184
+        },
+        {
+          "step": 278,
+          "best": 356,
+          "cumulative_tokens": 34307
+        },
+        {
+          "step": 279,
+          "best": 356,
+          "cumulative_tokens": 34368
+        },
+        {
+          "step": 280,
+          "best": 356,
+          "cumulative_tokens": 34543
+        },
+        {
+          "step": 281,
+          "best": 356,
+          "cumulative_tokens": 34669
+        },
+        {
+          "step": 282,
+          "best": 356,
+          "cumulative_tokens": 34725
+        },
+        {
+          "step": 283,
+          "best": 356,
+          "cumulative_tokens": 34808
+        },
+        {
+          "step": 284,
+          "best": 356,
+          "cumulative_tokens": 34938
+        },
+        {
+          "step": 285,
+          "best": 356,
+          "cumulative_tokens": 35062
+        },
+        {
+          "step": 286,
+          "best": 356,
+          "cumulative_tokens": 35122
+        },
+        {
+          "step": 287,
+          "best": 356,
+          "cumulative_tokens": 35243
+        },
+        {
+          "step": 288,
+          "best": 356,
+          "cumulative_tokens": 35362
+        },
+        {
+          "step": 289,
+          "best": 356,
+          "cumulative_tokens": 35429
+        },
+        {
+          "step": 290,
+          "best": 356,
+          "cumulative_tokens": 35560
+        },
+        {
+          "step": 291,
+          "best": 356,
+          "cumulative_tokens": 35624
+        },
+        {
+          "step": 292,
+          "best": 356,
+          "cumulative_tokens": 35685
+        },
+        {
+          "step": 293,
+          "best": 356,
+          "cumulative_tokens": 35814
+        },
+        {
+          "step": 294,
+          "best": 356,
+          "cumulative_tokens": 35874
+        },
+        {
+          "step": 295,
+          "best": 356,
+          "cumulative_tokens": 36065
+        },
+        {
+          "step": 296,
+          "best": 356,
+          "cumulative_tokens": 36195
+        },
+        {
+          "step": 297,
+          "best": 356,
+          "cumulative_tokens": 36314
+        },
+        {
+          "step": 298,
+          "best": 356,
+          "cumulative_tokens": 36389
+        },
+        {
+          "step": 299,
+          "best": 356,
+          "cumulative_tokens": 36507
+        },
+        {
+          "step": 300,
+          "best": 356,
+          "cumulative_tokens": 36573
+        },
+        {
+          "step": 301,
+          "best": 356,
+          "cumulative_tokens": 36623
+        },
+        {
+          "step": 302,
+          "best": 356,
+          "cumulative_tokens": 36873
+        },
+        {
+          "step": 303,
+          "best": 356,
+          "cumulative_tokens": 36997
+        },
+        {
+          "step": 304,
+          "best": 356,
+          "cumulative_tokens": 37183
+        },
+        {
+          "step": 305,
+          "best": 356,
+          "cumulative_tokens": 37372
+        },
+        {
+          "step": 306,
+          "best": 356,
+          "cumulative_tokens": 37495
+        },
+        {
+          "step": 307,
+          "best": 356,
+          "cumulative_tokens": 37553
+        },
+        {
+          "step": 308,
+          "best": 356,
+          "cumulative_tokens": 37673
+        },
+        {
+          "step": 309,
+          "best": 356,
+          "cumulative_tokens": 37788
+        },
+        {
+          "step": 310,
+          "best": 356,
+          "cumulative_tokens": 37912
+        },
+        {
+          "step": 311,
+          "best": 356,
+          "cumulative_tokens": 38030
+        },
+        {
+          "step": 312,
+          "best": 356,
+          "cumulative_tokens": 38141
+        },
+        {
+          "step": 313,
+          "best": 356,
+          "cumulative_tokens": 38395
+        },
+        {
+          "step": 314,
+          "best": 356,
+          "cumulative_tokens": 38461
+        },
+        {
+          "step": 315,
+          "best": 356,
+          "cumulative_tokens": 38593
+        },
+        {
+          "step": 316,
+          "best": 356,
+          "cumulative_tokens": 38717
+        },
+        {
+          "step": 317,
+          "best": 356,
+          "cumulative_tokens": 38781
+        },
+        {
+          "step": 318,
+          "best": 356,
+          "cumulative_tokens": 38957
+        },
+        {
+          "step": 319,
+          "best": 356,
+          "cumulative_tokens": 39098
+        },
+        {
+          "step": 320,
+          "best": 356,
+          "cumulative_tokens": 39156
+        },
+        {
+          "step": 321,
+          "best": 356,
+          "cumulative_tokens": 39218
+        },
+        {
+          "step": 322,
+          "best": 356,
+          "cumulative_tokens": 39336
+        },
+        {
+          "step": 323,
+          "best": 356,
+          "cumulative_tokens": 39514
+        },
+        {
+          "step": 324,
+          "best": 356,
+          "cumulative_tokens": 39579
+        },
+        {
+          "step": 325,
+          "best": 356,
+          "cumulative_tokens": 39658
+        },
+        {
+          "step": 326,
+          "best": 356,
+          "cumulative_tokens": 39734
+        },
+        {
+          "step": 327,
+          "best": 356,
+          "cumulative_tokens": 39934
+        },
+        {
+          "step": 328,
+          "best": 356,
+          "cumulative_tokens": 39997
+        },
+        {
+          "step": 329,
+          "best": 356,
+          "cumulative_tokens": 40057
+        },
+        {
+          "step": 330,
+          "best": 356,
+          "cumulative_tokens": 40234
+        },
+        {
+          "step": 331,
+          "best": 356,
+          "cumulative_tokens": 40308
+        },
+        {
+          "step": 332,
+          "best": 356,
+          "cumulative_tokens": 40421
+        },
+        {
+          "step": 333,
+          "best": 356,
+          "cumulative_tokens": 40490
+        },
+        {
+          "step": 334,
+          "best": 356,
+          "cumulative_tokens": 40660
+        },
+        {
+          "step": 335,
+          "best": 356,
+          "cumulative_tokens": 40791
+        },
+        {
+          "step": 336,
+          "best": 356,
+          "cumulative_tokens": 40925
+        },
+        {
+          "step": 337,
+          "best": 356,
+          "cumulative_tokens": 40987
+        },
+        {
+          "step": 338,
+          "best": 356,
+          "cumulative_tokens": 41111
+        },
+        {
+          "step": 339,
+          "best": 356,
+          "cumulative_tokens": 41244
+        },
+        {
+          "step": 340,
+          "best": 356,
+          "cumulative_tokens": 41322
+        },
+        {
+          "step": 341,
+          "best": 356,
+          "cumulative_tokens": 41386
+        },
+        {
+          "step": 342,
+          "best": 356,
+          "cumulative_tokens": 41502
+        },
+        {
+          "step": 343,
+          "best": 356,
+          "cumulative_tokens": 41572
+        },
+        {
+          "step": 344,
+          "best": 356,
+          "cumulative_tokens": 41762
+        },
+        {
+          "step": 345,
+          "best": 356,
+          "cumulative_tokens": 41995
+        },
+        {
+          "step": 346,
+          "best": 356,
+          "cumulative_tokens": 42181
+        },
+        {
+          "step": 347,
+          "best": 356,
+          "cumulative_tokens": 42248
+        },
+        {
+          "step": 348,
+          "best": 356,
+          "cumulative_tokens": 42366
+        },
+        {
+          "step": 349,
+          "best": 356,
+          "cumulative_tokens": 42614
+        },
+        {
+          "step": 350,
+          "best": 356,
+          "cumulative_tokens": 42809
+        },
+        {
+          "step": 351,
+          "best": 356,
+          "cumulative_tokens": 42939
+        },
+        {
+          "step": 352,
+          "best": 356,
+          "cumulative_tokens": 43019
+        },
+        {
+          "step": 353,
+          "best": 356,
+          "cumulative_tokens": 43202
+        },
+        {
+          "step": 354,
+          "best": 356,
+          "cumulative_tokens": 43344
+        },
+        {
+          "step": 355,
+          "best": 356,
+          "cumulative_tokens": 43420
+        },
+        {
+          "step": 356,
+          "best": 356,
+          "cumulative_tokens": 43542
+        },
+        {
+          "step": 357,
+          "best": 356,
+          "cumulative_tokens": 43737
+        },
+        {
+          "step": 358,
+          "best": 356,
+          "cumulative_tokens": 43927
+        },
+        {
+          "step": 359,
+          "best": 356,
+          "cumulative_tokens": 44043
+        },
+        {
+          "step": 360,
+          "best": 356,
+          "cumulative_tokens": 44287
+        },
+        {
+          "step": 361,
+          "best": 356,
+          "cumulative_tokens": 44369
+        },
+        {
+          "step": 362,
+          "best": 356,
+          "cumulative_tokens": 44551
+        },
+        {
+          "step": 363,
+          "best": 356,
+          "cumulative_tokens": 44745
+        },
+        {
+          "step": 364,
+          "best": 356,
+          "cumulative_tokens": 44864
+        },
+        {
+          "step": 365,
+          "best": 356,
+          "cumulative_tokens": 45058
+        },
+        {
+          "step": 366,
+          "best": 356,
+          "cumulative_tokens": 45189
+        },
+        {
+          "step": 367,
+          "best": 356,
+          "cumulative_tokens": 45310
+        },
+        {
+          "step": 368,
+          "best": 356,
+          "cumulative_tokens": 45430
+        },
+        {
+          "step": 369,
+          "best": 356,
+          "cumulative_tokens": 45489
+        },
+        {
+          "step": 370,
+          "best": 356,
+          "cumulative_tokens": 45606
+        },
+        {
+          "step": 371,
+          "best": 356,
+          "cumulative_tokens": 45791
+        },
+        {
+          "step": 372,
+          "best": 356,
+          "cumulative_tokens": 45834
+        },
+        {
+          "step": 373,
+          "best": 356,
+          "cumulative_tokens": 46133
+        },
+        {
+          "step": 374,
+          "best": 356,
+          "cumulative_tokens": 46253
+        },
+        {
+          "step": 375,
+          "best": 356,
+          "cumulative_tokens": 46327
+        },
+        {
+          "step": 376,
+          "best": 356,
+          "cumulative_tokens": 46520
+        },
+        {
+          "step": 377,
+          "best": 356,
+          "cumulative_tokens": 46776
+        },
+        {
+          "step": 378,
+          "best": 356,
+          "cumulative_tokens": 46833
+        },
+        {
+          "step": 379,
+          "best": 356,
+          "cumulative_tokens": 47016
+        },
+        {
+          "step": 380,
+          "best": 356,
+          "cumulative_tokens": 47079
+        },
+        {
+          "step": 381,
+          "best": 356,
+          "cumulative_tokens": 47168
+        },
+        {
+          "step": 382,
+          "best": 356,
+          "cumulative_tokens": 47223
+        },
+        {
+          "step": 383,
+          "best": 356,
+          "cumulative_tokens": 47300
+        },
+        {
+          "step": 384,
+          "best": 356,
+          "cumulative_tokens": 47356
+        },
+        {
+          "step": 385,
+          "best": 356,
+          "cumulative_tokens": 47426
+        },
+        {
+          "step": 386,
+          "best": 356,
+          "cumulative_tokens": 47485
+        },
+        {
+          "step": 387,
+          "best": 356,
+          "cumulative_tokens": 47551
+        },
+        {
+          "step": 388,
+          "best": 356,
+          "cumulative_tokens": 47674
+        },
+        {
+          "step": 389,
+          "best": 356,
+          "cumulative_tokens": 47791
+        },
+        {
+          "step": 390,
+          "best": 356,
+          "cumulative_tokens": 47977
+        },
+        {
+          "step": 391,
+          "best": 356,
+          "cumulative_tokens": 48341
+        },
+        {
+          "step": 392,
+          "best": 356,
+          "cumulative_tokens": 48400
+        },
+        {
+          "step": 393,
+          "best": 356,
+          "cumulative_tokens": 48519
+        },
+        {
+          "step": 394,
+          "best": 356,
+          "cumulative_tokens": 48641
+        },
+        {
+          "step": 395,
+          "best": 356,
+          "cumulative_tokens": 48766
+        },
+        {
+          "step": 396,
+          "best": 356,
+          "cumulative_tokens": 48950
+        },
+        {
+          "step": 397,
+          "best": 356,
+          "cumulative_tokens": 49086
+        },
+        {
+          "step": 398,
+          "best": 356,
+          "cumulative_tokens": 49152
+        },
+        {
+          "step": 399,
+          "best": 356,
+          "cumulative_tokens": 49343
+        },
+        {
+          "step": 400,
+          "best": 356,
+          "cumulative_tokens": 49475
+        },
+        {
+          "step": 401,
+          "best": 356,
+          "cumulative_tokens": 49674
+        },
+        {
+          "step": 402,
+          "best": 356,
+          "cumulative_tokens": 49864
+        },
+        {
+          "step": 403,
+          "best": 356,
+          "cumulative_tokens": 49920
+        },
+        {
+          "step": 404,
+          "best": 356,
+          "cumulative_tokens": 50172
+        },
+        {
+          "step": 405,
+          "best": 356,
+          "cumulative_tokens": 50238
+        },
+        {
+          "step": 406,
+          "best": 356,
+          "cumulative_tokens": 50368
+        },
+        {
+          "step": 407,
+          "best": 356,
+          "cumulative_tokens": 50434
+        },
+        {
+          "step": 408,
+          "best": 356,
+          "cumulative_tokens": 50558
+        },
+        {
+          "step": 409,
+          "best": 356,
+          "cumulative_tokens": 50631
+        },
+        {
+          "step": 410,
+          "best": 356,
+          "cumulative_tokens": 50745
+        },
+        {
+          "step": 411,
+          "best": 356,
+          "cumulative_tokens": 50818
+        },
+        {
+          "step": 412,
+          "best": 356,
+          "cumulative_tokens": 50875
+        },
+        {
+          "step": 413,
+          "best": 356,
+          "cumulative_tokens": 51003
+        },
+        {
+          "step": 414,
+          "best": 356,
+          "cumulative_tokens": 51246
+        },
+        {
+          "step": 415,
+          "best": 356,
+          "cumulative_tokens": 51555
+        },
+        {
+          "step": 416,
+          "best": 356,
+          "cumulative_tokens": 51684
+        },
+        {
+          "step": 417,
+          "best": 356,
+          "cumulative_tokens": 51809
+        },
+        {
+          "step": 418,
+          "best": 356,
+          "cumulative_tokens": 52012
+        },
+        {
+          "step": 419,
+          "best": 356,
+          "cumulative_tokens": 52146
+        },
+        {
+          "step": 420,
+          "best": 356,
+          "cumulative_tokens": 52447
+        },
+        {
+          "step": 421,
+          "best": 356,
+          "cumulative_tokens": 52572
+        },
+        {
+          "step": 422,
+          "best": 356,
+          "cumulative_tokens": 52760
+        },
+        {
+          "step": 423,
+          "best": 356,
+          "cumulative_tokens": 52936
+        },
+        {
+          "step": 424,
+          "best": 356,
+          "cumulative_tokens": 53075
+        },
+        {
+          "step": 425,
+          "best": 356,
+          "cumulative_tokens": 53135
+        },
+        {
+          "step": 426,
+          "best": 356,
+          "cumulative_tokens": 53198
+        },
+        {
+          "step": 427,
+          "best": 356,
+          "cumulative_tokens": 53449
+        },
+        {
+          "step": 428,
+          "best": 356,
+          "cumulative_tokens": 53625
+        },
+        {
+          "step": 429,
+          "best": 356,
+          "cumulative_tokens": 53753
+        },
+        {
+          "step": 430,
+          "best": 356,
+          "cumulative_tokens": 53832
+        },
+        {
+          "step": 431,
+          "best": 356,
+          "cumulative_tokens": 53957
+        },
+        {
+          "step": 432,
+          "best": 356,
+          "cumulative_tokens": 54029
+        },
+        {
+          "step": 433,
+          "best": 356,
+          "cumulative_tokens": 54152
+        },
+        {
+          "step": 434,
+          "best": 356,
+          "cumulative_tokens": 54296
+        },
+        {
+          "step": 435,
+          "best": 356,
+          "cumulative_tokens": 54464
+        },
+        {
+          "step": 436,
+          "best": 356,
+          "cumulative_tokens": 54707
+        },
+        {
+          "step": 437,
+          "best": 356,
+          "cumulative_tokens": 54818
+        },
+        {
+          "step": 438,
+          "best": 356,
+          "cumulative_tokens": 54942
+        },
+        {
+          "step": 439,
+          "best": 356,
+          "cumulative_tokens": 55074
+        },
+        {
+          "step": 440,
+          "best": 356,
+          "cumulative_tokens": 55201
+        },
+        {
+          "step": 441,
+          "best": 356,
+          "cumulative_tokens": 55333
+        },
+        {
+          "step": 442,
+          "best": 356,
+          "cumulative_tokens": 55404
+        },
+        {
+          "step": 443,
+          "best": 356,
+          "cumulative_tokens": 55469
+        },
+        {
+          "step": 444,
+          "best": 356,
+          "cumulative_tokens": 55535
+        },
+        {
+          "step": 445,
+          "best": 356,
+          "cumulative_tokens": 55599
+        },
+        {
+          "step": 446,
+          "best": 356,
+          "cumulative_tokens": 55783
+        },
+        {
+          "step": 447,
+          "best": 356,
+          "cumulative_tokens": 55842
+        },
+        {
+          "step": 448,
+          "best": 356,
+          "cumulative_tokens": 55969
+        },
+        {
+          "step": 449,
+          "best": 356,
+          "cumulative_tokens": 56020
+        },
+        {
+          "step": 450,
+          "best": 356,
+          "cumulative_tokens": 56142
+        },
+        {
+          "step": 451,
+          "best": 356,
+          "cumulative_tokens": 56274
+        },
+        {
+          "step": 452,
+          "best": 356,
+          "cumulative_tokens": 56329
+        },
+        {
+          "step": 453,
+          "best": 356,
+          "cumulative_tokens": 56451
+        },
+        {
+          "step": 454,
+          "best": 356,
+          "cumulative_tokens": 56578
+        },
+        {
+          "step": 455,
+          "best": 356,
+          "cumulative_tokens": 56694
+        },
+        {
+          "step": 456,
+          "best": 356,
+          "cumulative_tokens": 56773
+        },
+        {
+          "step": 457,
+          "best": 356,
+          "cumulative_tokens": 56961
+        },
+        {
+          "step": 458,
+          "best": 356,
+          "cumulative_tokens": 57073
+        },
+        {
+          "step": 459,
+          "best": 356,
+          "cumulative_tokens": 57325
+        },
+        {
+          "step": 460,
+          "best": 356,
+          "cumulative_tokens": 57447
+        },
+        {
+          "step": 461,
+          "best": 356,
+          "cumulative_tokens": 57513
+        },
+        {
+          "step": 462,
+          "best": 356,
+          "cumulative_tokens": 57579
+        },
+        {
+          "step": 463,
+          "best": 356,
+          "cumulative_tokens": 57711
+        },
+        {
+          "step": 464,
+          "best": 356,
+          "cumulative_tokens": 57844
+        },
+        {
+          "step": 465,
+          "best": 356,
+          "cumulative_tokens": 57889
+        },
+        {
+          "step": 466,
+          "best": 356,
+          "cumulative_tokens": 57942
+        },
+        {
+          "step": 467,
+          "best": 356,
+          "cumulative_tokens": 58008
+        },
+        {
+          "step": 468,
+          "best": 356,
+          "cumulative_tokens": 58254
+        },
+        {
+          "step": 469,
+          "best": 356,
+          "cumulative_tokens": 58377
+        },
+        {
+          "step": 470,
+          "best": 356,
+          "cumulative_tokens": 58443
+        },
+        {
+          "step": 471,
+          "best": 356,
+          "cumulative_tokens": 58507
+        },
+        {
+          "step": 472,
+          "best": 356,
+          "cumulative_tokens": 58578
+        },
+        {
+          "step": 473,
+          "best": 356,
+          "cumulative_tokens": 58706
+        },
+        {
+          "step": 474,
+          "best": 356,
+          "cumulative_tokens": 59016
+        },
+        {
+          "step": 475,
+          "best": 356,
+          "cumulative_tokens": 59135
+        },
+        {
+          "step": 476,
+          "best": 356,
+          "cumulative_tokens": 59277
+        },
+        {
+          "step": 477,
+          "best": 356,
+          "cumulative_tokens": 59337
+        },
+        {
+          "step": 478,
+          "best": 356,
+          "cumulative_tokens": 59465
+        },
+        {
+          "step": 479,
+          "best": 356,
+          "cumulative_tokens": 59593
+        },
+        {
+          "step": 480,
+          "best": 356,
+          "cumulative_tokens": 59658
+        },
+        {
+          "step": 481,
+          "best": 356,
+          "cumulative_tokens": 59721
+        },
+        {
+          "step": 482,
+          "best": 356,
+          "cumulative_tokens": 59839
+        },
+        {
+          "step": 483,
+          "best": 356,
+          "cumulative_tokens": 60127
+        }
+      ]
+    },
+    "sponge": {
+      "name": "Sponge Examples [10]",
+      "best_length": 407,
+      "best_text": "1552 435 1575 23 1614 610 1781 828 28 219 852 1077 455 1201 550 1219 806 1868 1454 1793",
+      "best_ids": [
+        1552,
+        435,
+        1575,
+        23,
+        1614,
+        610,
+        1781,
+        828,
+        28,
+        219,
+        852,
+        1077,
+        455,
+        1201,
+        550,
+        1219,
+        806,
+        1868,
+        1454,
+        1793
+      ],
+      "tokens_spent": 60162,
+      "history": [
+        {
+          "generation": 1,
+          "best": 236,
+          "cumulative_tokens": 2119
+        },
+        {
+          "generation": 2,
+          "best": 292,
+          "cumulative_tokens": 5214
+        },
+        {
+          "generation": 3,
+          "best": 352,
+          "cumulative_tokens": 9456
+        },
+        {
+          "generation": 4,
+          "best": 355,
+          "cumulative_tokens": 12961
+        },
+        {
+          "generation": 5,
+          "best": 355,
+          "cumulative_tokens": 17023
+        },
+        {
+          "generation": 6,
+          "best": 355,
+          "cumulative_tokens": 20519
+        },
+        {
+          "generation": 7,
+          "best": 356,
+          "cumulative_tokens": 24226
+        },
+        {
+          "generation": 8,
+          "best": 356,
+          "cumulative_tokens": 28397
+        },
+        {
+          "generation": 9,
+          "best": 356,
+          "cumulative_tokens": 32678
+        },
+        {
+          "generation": 10,
+          "best": 356,
+          "cumulative_tokens": 36782
+        },
+        {
+          "generation": 11,
+          "best": 394,
+          "cumulative_tokens": 40508
+        },
+        {
+          "generation": 12,
+          "best": 394,
+          "cumulative_tokens": 44678
+        },
+        {
+          "generation": 13,
+          "best": 406,
+          "cumulative_tokens": 48940
+        },
+        {
+          "generation": 14,
+          "best": 407,
+          "cumulative_tokens": 53723
+        },
+        {
+          "generation": 15,
+          "best": 407,
+          "cumulative_tokens": 57731
+        },
+        {
+          "generation": 16,
+          "best": 407,
+          "cumulative_tokens": 60162
+        }
+      ]
+    },
+    "effichecker": {
+      "name": "LLMEffiChecker [14]",
+      "best_length": 355,
+      "best_text": "118 904 825 983 1636 1650 1253 1420 1579 1273 738 164 1105 1900 1187 51 1696 204 290 1638",
+      "best_ids": [
+        118,
+        904,
+        825,
+        983,
+        1636,
+        1650,
+        1253,
+        1420,
+        1579,
+        1273,
+        738,
+        164,
+        1105,
+        1900,
+        1187,
+        51,
+        1696,
+        204,
+        290,
+        1638
+      ],
+      "tokens_spent": 60074,
+      "history": [
+        {
+          "step": 8,
+          "best": 62,
+          "cumulative_tokens": 659
+        },
+        {
+          "step": 16,
+          "best": 114,
+          "cumulative_tokens": 1453
+        },
+        {
+          "step": 24,
+          "best": 236,
+          "cumulative_tokens": 2659
+        },
+        {
+          "step": 32,
+          "best": 244,
+          "cumulative_tokens": 4636
+        },
+        {
+          "step": 40,
+          "best": 244,
+          "cumulative_tokens": 6615
+        },
+        {
+          "step": 48,
+          "best": 244,
+          "cumulative_tokens": 8457
+        },
+        {
+          "step": 56,
+          "best": 348,
+          "cumulative_tokens": 10565
+        },
+        {
+          "step": 64,
+          "best": 348,
+          "cumulative_tokens": 13000
+        },
+        {
+          "step": 72,
+          "best": 348,
+          "cumulative_tokens": 13520
+        },
+        {
+          "step": 80,
+          "best": 348,
+          "cumulative_tokens": 14011
+        },
+        {
+          "step": 88,
+          "best": 348,
+          "cumulative_tokens": 14558
+        },
+        {
+          "step": 96,
+          "best": 348,
+          "cumulative_tokens": 15556
+        },
+        {
+          "step": 104,
+          "best": 348,
+          "cumulative_tokens": 16591
+        },
+        {
+          "step": 112,
+          "best": 348,
+          "cumulative_tokens": 17545
+        },
+        {
+          "step": 120,
+          "best": 348,
+          "cumulative_tokens": 19276
+        },
+        {
+          "step": 128,
+          "best": 348,
+          "cumulative_tokens": 20781
+        },
+        {
+          "step": 136,
+          "best": 348,
+          "cumulative_tokens": 22338
+        },
+        {
+          "step": 144,
+          "best": 348,
+          "cumulative_tokens": 23869
+        },
+        {
+          "step": 152,
+          "best": 348,
+          "cumulative_tokens": 25900
+        },
+        {
+          "step": 160,
+          "best": 348,
+          "cumulative_tokens": 27955
+        },
+        {
+          "step": 168,
+          "best": 348,
+          "cumulative_tokens": 30027
+        },
+        {
+          "step": 176,
+          "best": 348,
+          "cumulative_tokens": 31225
+        },
+        {
+          "step": 184,
+          "best": 348,
+          "cumulative_tokens": 32764
+        },
+        {
+          "step": 192,
+          "best": 348,
+          "cumulative_tokens": 35183
+        },
+        {
+          "step": 200,
+          "best": 355,
+          "cumulative_tokens": 37742
+        },
+        {
+          "step": 208,
+          "best": 355,
+          "cumulative_tokens": 40635
+        },
+        {
+          "step": 216,
+          "best": 355,
+          "cumulative_tokens": 41235
+        },
+        {
+          "step": 224,
+          "best": 355,
+          "cumulative_tokens": 41847
+        },
+        {
+          "step": 232,
+          "best": 355,
+          "cumulative_tokens": 42968
+        },
+        {
+          "step": 240,
+          "best": 355,
+          "cumulative_tokens": 44099
+        },
+        {
+          "step": 248,
+          "best": 355,
+          "cumulative_tokens": 45615
+        },
+        {
+          "step": 256,
+          "best": 355,
+          "cumulative_tokens": 47288
+        },
+        {
+          "step": 264,
+          "best": 355,
+          "cumulative_tokens": 48912
+        },
+        {
+          "step": 272,
+          "best": 355,
+          "cumulative_tokens": 50855
+        },
+        {
+          "step": 280,
+          "best": 355,
+          "cumulative_tokens": 52534
+        },
+        {
+          "step": 288,
+          "best": 355,
+          "cumulative_tokens": 54546
+        },
+        {
+          "step": 296,
+          "best": 355,
+          "cumulative_tokens": 56096
+        },
+        {
+          "step": 304,
+          "best": 355,
+          "cumulative_tokens": 57331
+        },
+        {
+          "step": 312,
+          "best": 355,
+          "cumulative_tokens": 58853
+        },
+        {
+          "step": 320,
+          "best": 355,
+          "cumulative_tokens": 59389
+        },
+        {
+          "step": 328,
+          "best": 355,
+          "cumulative_tokens": 59888
+        },
+        {
+          "step": 329,
+          "best": 355,
+          "cumulative_tokens": 60015
+        }
+      ]
+    }
+  }
+}

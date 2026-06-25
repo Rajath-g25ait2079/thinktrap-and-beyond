@@ -1,0 +1,200 @@
+{
+  "fifo_no_defense": {
+    "throughput_retention": 0.3170784804615217,
+    "steady_state_retention": 0.2012831888608286,
+    "ttft_blowup": 229.62674160263217,
+    "peak_gpu_mem_mb": 19987.2,
+    "any_crash": true,
+    "attacked_summary": {
+      "scheduler": "fifo",
+      "attack_enabled": true,
+      "output_cap": null,
+      "legit_completed": 66,
+      "legit_total": 217,
+      "legit_throughput_tps": 29.13,
+      "mean_legit_ttft": 113.11391302804181,
+      "p95_legit_ttft": 363.74894748326494,
+      "peak_gpu_mem_mb": 19987.2,
+      "any_crash": true,
+      "n_failed": 16
+    },
+    "baseline_summary": {
+      "scheduler": "fifo",
+      "attack_enabled": false,
+      "output_cap": null,
+      "legit_completed": 217,
+      "legit_total": 217,
+      "legit_throughput_tps": 91.87,
+      "mean_legit_ttft": 0.4925990424224406,
+      "p95_legit_ttft": 0.9523915651853827,
+      "peak_gpu_mem_mb": 946.1999999999999,
+      "any_crash": false,
+      "n_failed": 0
+    }
+  },
+  "vtc_defense": {
+    "throughput_retention": 0.9434527049091106,
+    "steady_state_retention": 1.0495529315405092,
+    "ttft_blowup": 10.760972164086228,
+    "peak_gpu_mem_mb": 19995.0,
+    "any_crash": true,
+    "attacked_summary": {
+      "scheduler": "vtc",
+      "attack_enabled": true,
+      "output_cap": null,
+      "legit_completed": 199,
+      "legit_total": 217,
+      "legit_throughput_tps": 86.675,
+      "mean_legit_ttft": 5.300844583563414,
+      "p95_legit_ttft": 8.881274689402915,
+      "peak_gpu_mem_mb": 19995.0,
+      "any_crash": true,
+      "n_failed": 46
+    },
+    "baseline_summary": {
+      "scheduler": "vtc",
+      "attack_enabled": false,
+      "output_cap": null,
+      "legit_completed": 217,
+      "legit_total": 217,
+      "legit_throughput_tps": 91.87,
+      "mean_legit_ttft": 0.4925990424224406,
+      "p95_legit_ttft": 0.9523915651853827,
+      "peak_gpu_mem_mb": 946.1999999999999,
+      "any_crash": false,
+      "n_failed": 0
+    }
+  },
+  "cap_1024": {
+    "throughput_retention": 0.9974964623925111,
+    "steady_state_retention": 1.009487407002935,
+    "ttft_blowup": 1.0654854389433939,
+    "peak_gpu_mem_mb": 1808.3999999999999,
+    "any_crash": false,
+    "attacked_summary": {
+      "scheduler": "fifo",
+      "attack_enabled": true,
+      "output_cap": 1024,
+      "legit_completed": 216,
+      "legit_total": 217,
+      "legit_throughput_tps": 91.64,
+      "mean_legit_ttft": 0.5248571069385697,
+      "p95_legit_ttft": 0.9720366020650913,
+      "peak_gpu_mem_mb": 1808.3999999999999,
+      "any_crash": false,
+      "n_failed": 0
+    },
+    "baseline_summary": {
+      "scheduler": "fifo",
+      "attack_enabled": false,
+      "output_cap": 1024,
+      "legit_completed": 217,
+      "legit_total": 217,
+      "legit_throughput_tps": 91.87,
+      "mean_legit_ttft": 0.4925990424224406,
+      "p95_legit_ttft": 0.9523915651853827,
+      "peak_gpu_mem_mb": 946.1999999999999,
+      "any_crash": false,
+      "n_failed": 0
+    }
+  },
+  "cap_128": {
+    "throughput_retention": 1.0,
+    "steady_state_retention": 1.0,
+    "ttft_blowup": 1.0,
+    "peak_gpu_mem_mb": 468.0,
+    "any_crash": false,
+    "attacked_summary": {
+      "scheduler": "fifo",
+      "attack_enabled": true,
+      "output_cap": 128,
+      "legit_completed": 217,
+      "legit_total": 217,
+      "legit_throughput_tps": 45.44833333333333,
+      "mean_legit_ttft": 0.4925990424224406,
+      "p95_legit_ttft": 0.9523915651853827,
+      "peak_gpu_mem_mb": 468.0,
+      "any_crash": false,
+      "n_failed": 0
+    },
+    "baseline_summary": {
+      "scheduler": "fifo",
+      "attack_enabled": false,
+      "output_cap": 128,
+      "legit_completed": 217,
+      "legit_total": 217,
+      "legit_throughput_tps": 45.44833333333333,
+      "mean_legit_ttft": 0.4925990424224406,
+      "p95_legit_ttft": 0.9523915651853827,
+      "peak_gpu_mem_mb": 460.79999999999995,
+      "any_crash": false,
+      "n_failed": 0
+    }
+  },
+  "naive_cap_1024": {
+    "throughput_retention": 0.4616005873715125,
+    "steady_state_retention": 0.34664102394057955,
+    "ttft_blowup": 28.756250834087297,
+    "peak_gpu_mem_mb": 1178.3999999999999,
+    "any_crash": false,
+    "attacked_summary": {
+      "scheduler": "fifo",
+      "attack_enabled": true,
+      "output_cap": 1024,
+      "legit_completed": 97,
+      "legit_total": 217,
+      "legit_throughput_tps": 41.913333333333334,
+      "mean_legit_ttft": 125.43587787665143,
+      "p95_legit_ttft": 287.2941256851256,
+      "peak_gpu_mem_mb": 1178.3999999999999,
+      "any_crash": false,
+      "n_failed": 0
+    },
+    "baseline_summary": {
+      "scheduler": "fifo",
+      "attack_enabled": false,
+      "output_cap": 1024,
+      "legit_completed": 214,
+      "legit_total": 217,
+      "legit_throughput_tps": 90.8,
+      "mean_legit_ttft": 4.3620386607548065,
+      "p95_legit_ttft": 13.39720892227858,
+      "peak_gpu_mem_mb": 506.4,
+      "any_crash": false,
+      "n_failed": 0
+    }
+  },
+  "naive_cap_128": {
+    "throughput_retention": 0.9997066265722984,
+    "steady_state_retention": 1.0247626908790755,
+    "ttft_blowup": 1.8284291394937464,
+    "peak_gpu_mem_mb": 230.39999999999998,
+    "any_crash": false,
+    "attacked_summary": {
+      "scheduler": "fifo",
+      "attack_enabled": true,
+      "output_cap": 128,
+      "legit_completed": 216,
+      "legit_total": 217,
+      "legit_throughput_tps": 45.435,
+      "mean_legit_ttft": 1.56633176131645,
+      "p95_legit_ttft": 5.037842404606223,
+      "peak_gpu_mem_mb": 230.39999999999998,
+      "any_crash": false,
+      "n_failed": 0
+    },
+    "baseline_summary": {
+      "scheduler": "fifo",
+      "attack_enabled": false,
+      "output_cap": 128,
+      "legit_completed": 217,
+      "legit_total": 217,
+      "legit_throughput_tps": 45.44833333333333,
+      "mean_legit_ttft": 0.856654341961611,
+      "p95_legit_ttft": 2.9189571853965486,
+      "peak_gpu_mem_mb": 230.39999999999998,
+      "any_crash": false,
+      "n_failed": 0
+    }
+  }
+}

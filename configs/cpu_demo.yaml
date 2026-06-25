@@ -1,0 +1,27 @@
+# CPU / numpy-only demo: no model download, runs in seconds.
+# Verifies the full z -> E -> tokens -> length pipeline against a synthetic
+# black-box victim with exploitable "verbosity" structure.
+
+prompt_length: 20        # L
+latent_dim: 20           # m
+max_new_tokens: 512      # small cap for a fast demo (paper uses 4096)
+success_threshold: 480
+temperature: 1.0
+
+sigma: 1.0
+epsilon: 1.0e-8
+query_budget_tokens: 60000
+max_iterations: 120
+
+seed: 0
+log_every: 5
+verbose: true
+
+victim:
+  kind: mock
+  vocab_size: 2000
+
+surrogate:
+  kind: synthetic
+  vocab_size: 2000
+  embed_dim: 64

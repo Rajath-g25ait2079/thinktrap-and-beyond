@@ -1,0 +1,15 @@
+# Core (numpy-only path: CPU demo, tests, service simulator)
+numpy>=1.23
+pyyaml>=6.0
+matplotlib>=3.5      # optional, for plots
+
+# Recommended optimizer backend (falls back to a built-in numpy CMA-ES if absent)
+cmaes>=0.10
+
+# Real-model path (HFVictim / HF surrogate decoder) -- install on your GPU box
+# torch>=2.1
+# transformers>=4.40
+# accelerate>=0.27
+
+# Tests
+pytest>=7.0
